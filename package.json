@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "lint": "eslint models/ routes/"
   },
-  "engine": {
+  "engines": {
     "node": "7.7.1"
   },
   "dependencies": {
