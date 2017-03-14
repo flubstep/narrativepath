@@ -3,10 +3,10 @@
     "mongo_uri": "mongodb://localhost/narrativetest"
   },
   "development": {
-    "use_env_variable": "MONGO_URI",
+    "use_env_variable": "MONGODB_URI",
     "mongo_uri": "mongodb://heroku_70g8mgzg:jh57o938t4grm1q97luvhl8dd@ds129610.mlab.com:29610/heroku_70g8mgzg"
   },
   "production": {
-    "use_env_variable": "MONGO_URI"
+    "use_env_variable": "MONGODB_URI"
   }
 }

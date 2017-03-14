@@ -13,7 +13,7 @@ mongoose.Promise = require('bluebird');
 let mongoURI = (
   config.use_env_variable
   ? process.env[config.use_env_variable]
-  : process.env['MONGO_URI']
+  : process.env['MONGODB_URI']
 );
 mongoURI = mongoURI || config.mongo_uri;
 mongoURI = mongoURI || 'mongodb:///localhost';
